@@ -1,0 +1,63 @@
+.Payment_card{
+    cursor: pointer;
+    padding: 13px;
+    color: black;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 12px 0px #dbdbdb;
+    h1{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        margin:10px 0px 10px 0px; 
+        color: rgb(5, 5, 5);
+      }
+      h3{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #C0C0C0;
+      margin: 0;
+      }
+  }
+  
+.radio_size {
+  height: 24px !important;
+  margin-top: 10px;
+}
+
+// .SecondCard{
+//   cursor: pointer;
+//   background-color: white;
+//   box-shadow: 0 0 12px 0px #dbdbdb;
+//   margin: 20px;
+//   padding: 15px;
+//   h1  {
+//       font-family: 'Ubuntu';
+//       font-style: normal;
+//       font-weight: 500;
+//       font-size: 20px;
+//       color: rgb(5, 5, 5);
+//       margin: 0;
+//     }
+//     h3{
+//       font-family: 'Ubuntu';
+//       font-style: normal;
+//       font-weight: 400;
+//       font-size: 16px;
+//       line-height: 20px;
+//       color: #C0C0C0;
+//     margin: 0;
+//     }
+//     input[name="flexRadioDefault"] {
+//     accent-color: green;
+//     }
+//   }
+
+  .Payment_card .active {
+    background: #EBFEF2 !important;
+    border: 1px solid #00683D;
+  }

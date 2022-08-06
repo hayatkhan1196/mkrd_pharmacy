@@ -1,0 +1,13 @@
+.container {
+  min-height: calc(100vh - 200px); //-466px
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageContainer,
+.titleContainer {
+  margin: 40px auto;
+  font-family: "Ubuntu";
+}

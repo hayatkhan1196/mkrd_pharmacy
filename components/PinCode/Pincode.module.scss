@@ -1,0 +1,35 @@
+.pincode_container {
+  background-color: white;
+  border-right: 2px solid #dfe3e6;
+  height: 52px;
+  width: auto;
+}
+.pincode_address_container {
+  background-color: white;
+  border-right: 2px solid #dfe3e6;
+  width: 29%;
+  height: 52px;
+}
+.pincode_title {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: green;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #00683d;
+  margin-top: -7px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.pin_code_down_icon {
+  top: 23px;
+  left: 95px;
+  right: auto;
+}

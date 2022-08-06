@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Home",
+        "key": 1,
+        "className": "box_active"
+      },
+      {
+        "name": "Home",
+        "key": 2,
+        "className": "box_content"
+      }
+]

@@ -1,0 +1,37 @@
+.main_container {
+  position: relative;
+}
+
+.switchBtn {
+  position: absolute;
+  background-color: green;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  top: 75%;
+  left: 48.5%;
+  z-index: 1;
+  background-image: url("/assets/up-and-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.generic_message_container {
+  display: inline-flex;
+}
+
+.in_cart_message_container {
+  display: inline-flex;
+}
+
+.in_cart_message {
+  font-weight: 500;
+  margin: 10px;
+}
+
+.generic_item_message {
+  color: green;
+  font-weight: 500;
+  margin: 10px;
+}

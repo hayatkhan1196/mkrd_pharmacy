@@ -1,0 +1,4 @@
+[
+  { "name": "Required", "val": "123" },
+  { "name": "Not Required", "val": "23" }
+]

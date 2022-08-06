@@ -1,0 +1,46 @@
+// cart css
+
+.med_Card {
+  background-color: #ebfef2;
+}
+
+.med_h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+}
+.med_p {
+  color: rgb(173, 173, 173);
+  font-size: 12px;
+}
+.med_h6 {
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.price {
+  text-decoration: line-through;
+  color: rgb(187, 187, 187);
+  font-size: 13px;
+}
+.right_side {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.buttom_message_container {
+  width: 100%;
+  background-color: #dcedfe;
+}
+
+.buttom_message {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.generic_alternative_details {
+  margin-bottom: 43px;
+}

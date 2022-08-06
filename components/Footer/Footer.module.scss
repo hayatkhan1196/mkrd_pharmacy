@@ -1,0 +1,77 @@
+.mdk_footer {
+  background: #ebfef2;
+  box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.05);
+  padding: 0 80px;
+}
+//logo
+.logo {
+  padding-top: 40px;
+  padding-bottom: 34px;
+}
+//main content
+.content_main {
+  p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #313436;
+    margin-bottom: 18px;
+  }
+}
+//locaiton icon
+.location {
+  align-items: flex-start;
+  span {
+    right: 10px;
+  }
+}
+//List Items
+.list_unstyled {
+  list-style: none;
+  h3 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 16px;
+  }
+  li {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 16px;
+    color: #313436;
+    span {
+      &:first-child {
+        margin-left: -7px !important;
+      }
+      span {
+        img {
+          margin-right: 20px !important;
+        }
+      }
+    }
+  }
+}
+ .end_line {
+  hr {
+    border: 1px solid #928e8e;
+    margin-top: 34px;
+    margin-bottom: 30px;
+  }
+  p {
+    text-align: right !important;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #313436;
+    padding-bottom: 50px;
+  }
+}

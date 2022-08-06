@@ -1,0 +1,54 @@
+[
+  {
+    "author": "Yasunari Kawabata",
+    "country": "Japan",
+    "imageLink": "images/the-sound-of-the-mountain.jpg",
+    "language": "Japanese",
+    "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
+    "pages": 288,
+    "name": "The Sound of the Mountain",
+    "year": 1954,
+    "icon": "/assets/history-icon.svg",
+    "verified" : false
+  },
+  {
+    "author": "Nikos Kazantzakis",
+    "country": "Greece",
+    "imageLink": "images/zorba-the-greek.jpg",
+    "language": "Greek",
+    "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
+    "pages": 368,
+    "name": "Zorba the Greek",
+    "year": 1946,
+    "icon": "/assets/history-icon.svg",
+    "verified" : false
+  },
+  {
+    "author": "D. H. Lawrence",
+    "country": "United Kingdom",
+    "imageLink": "images/sons-and-lovers.jpg",
+    "language": "English",
+    "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
+    "pages": 432,
+    "name": "Sons and Lovers",
+    "year": 1913,
+    "icon": "/assets/history-icon.svg",
+    "doctor_icon": "/assets/doctor-icon.svg",
+    "verified" : true
+
+  },
+  {
+    "author": "Halld\u00f3r Laxness",
+    "country": "Iceland",
+    "imageLink": "images/independent-people.jpg",
+    "language": "Icelandic",
+    "link": "https://en.wikipedia.org/wiki/Independent_People\n",
+    "pages": 470,
+    "name": "Independent People",
+    "year": 1934,
+    "icon": "/assets/history-icon.svg",
+    "doctor_icon": "/assets/doctor-icon.svg",
+    "verified" : true
+
+  }
+]

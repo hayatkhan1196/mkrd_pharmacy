@@ -1,0 +1,36 @@
+.medicine_container {
+    background: #D0F3E5;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.cart_item_text {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #313436;
+}
+
+.cart_item_subtext {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+}
+
+.view_cart_btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 100%;
+    border: none !important;
+    background: #00683D !important;
+    padding: 9px 10px;
+}
+

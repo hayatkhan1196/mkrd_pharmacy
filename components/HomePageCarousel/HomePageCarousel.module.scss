@@ -1,0 +1,13 @@
+.swiper_width_1061 {
+    width: 1061px !important;
+}
+.swiper-button-disabled{
+    display:none !important;   
+}
+
+.swiper-button-next, .swiper-button-prev {
+    opacity: 1;
+    display: none !important;
+    transition: 0.5s ease-in-out;
+  }
+   

@@ -1,0 +1,58 @@
+.med_Card {
+  padding: 15px;
+  background-color: #ebfef2;
+}
+
+.med_h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+}
+.med_p {
+  color: rgb(173, 173, 173);
+  font-size: 12px;
+}
+.med_h6 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.price {
+  text-decoration: line-through;
+  color: rgb(187, 187, 187);
+  font-size: 13px;
+}
+
+.right_side {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  height: 130px;
+}
+
+.icon {
+  margin-left: 28px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  width: fit-content;
+}
+
+.count {
+  padding: 4px 10px;
+}
+
+.a_tag {
+  background: green;
+  color: white;
+  padding: 4px 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.undo {
+  cursor: pointer;
+}

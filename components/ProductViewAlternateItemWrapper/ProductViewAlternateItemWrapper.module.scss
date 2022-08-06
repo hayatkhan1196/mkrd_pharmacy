@@ -1,0 +1,46 @@
+.alternate_card {
+    background: linear-gradient(178.95deg, #EBFEF2 0.9%, rgba(255, 255, 255, 0) 21.16%) !important;
+    font-family: "Ubuntu";
+}
+
+.alternates_button {
+    background: #00683D;
+    border-radius: 0px 0px 10px 0px;
+    width: 139px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;    
+    color: #313436;
+}
+
+.sub_title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    letter-spacing: 0.15px;
+}
+
+.light_text {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #C0C0C0;
+}

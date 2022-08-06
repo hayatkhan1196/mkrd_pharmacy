@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/medicane.svg",
+        "title": "Dolomade TH 4mg/200mg/325mg Tablet",
+        "description": "By Dr Reddy’s Laboratories ltd",
+        "price": 23,
+        "subPrice": "₹ 29",
+        "discount": "18% OFF",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "image": "/assets/medicane.svg",
+        "title": "Dolomade TH 4mg/200mg/325mg Tablet",
+        "description": "By Dr Reddy’s Laboratories ltd",
+        "price": 23,
+        "subPrice": "₹ 29",
+        "discount": "18% OFF",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "image": "/assets/medicane.svg",
+        "title": "Dolomade TH 4mg/200mg/325mg Tablet",
+        "description": "By Dr Reddy’s Laboratories ltd",
+        "price": 23,
+        "subPrice": "₹ 29",
+        "discount": "18% OFF",
+        "quantity": 1
+    }
+]

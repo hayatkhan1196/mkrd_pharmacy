@@ -1,0 +1,529 @@
+.mdk-header {
+  background: #00683d;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.04);
+  height: 112px;
+}
+
+.search-bar {
+  width: "100%";
+  height: 52px !important;
+  max-width: 730px;
+  padding: 0px 10px 0px;
+  background-color: white;
+  padding-left: 0px;
+  position: relative;
+}
+
+.left {
+  height: 51px;
+}
+
+.right {
+  background-color: white;
+  flex: 1;
+  margin-top: 10px;
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    outline: none;
+
+    img {
+      margin-top: 10px;
+      left: 2px;
+    }
+  }
+}
+
+.h-icons {
+  display: flex;
+  justify-content: space-between;
+
+  .icon-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 39px;
+
+    span {
+      margin-bottom: 6px !important;
+    }
+
+    h3 {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}
+
+.tabs-container {
+  background-color: #ebfef2;
+
+  .navbar-nav {
+    margin-left: 55px;
+  }
+
+  .tabs {
+    background-color: #ebfef2;
+
+    .nav-item {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      position: relative;
+      margin-right: 89px;
+
+      .nav-link {
+        color: #808080;
+        text-transform: uppercase;
+        font-family: "Ubuntu";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+      }
+
+      &:hover {
+        &::after {
+
+
+          content: " ";
+          position: absolute;
+
+          z-index: 9;
+          background-color: #00683d;
+
+
+        }
+
+        .nav-link {
+          color: #00683d;
+
+        }
+      }
+    }
+
+
+
+    .active {
+
+      a {
+        border-bottom: 3px solid #00683d;
+        padding-bottom: 3px;
+
+      }
+
+      &::after {
+
+        height: 2px;
+        content: " ";
+        position: absolute;
+        display: flex;
+        justify-content: "center";
+        align-items: center;
+        z-index: 9;
+        background-color: #00683d;
+      }
+
+      .nav-link {
+        color: #00683d;
+        font-weight: 500;
+      }
+    }
+  }
+
+  a:hover {
+    border-bottom: 3px solid #00683d;
+    padding-bottom: 3px;
+  }
+}
+
+.pincode-dropdown-box {
+  display: none;
+}
+
+.pincode-dropdown-box.active {
+  display: block;
+}
+
+.user-select-cursor {
+  cursor: pointer;
+}
+
+.search-bar {
+  /* Using plain CSS */
+
+  @media (max-width: 1300px) {
+    width: 56% !important;
+  }
+
+  @media (max-width: 1300px) {
+    width: 46% !important;
+  }
+}
+
+.left {
+  @media (max-width: 1300px) {
+    width: 23.666667% !important;
+  }
+
+  @media (max-width: 1200px) {
+    width: 30.666667% !important;
+  }
+}
+
+// drop down queries
+.dropdown-box .pincode-bar .left-bar {
+  @media (max-width: 1100px) {
+    width: 19px;
+    height: 50px;
+    margin-left: 16px;
+  }
+}
+
+//location
+.dropdown-box .location-picker {
+  @media (max-width: 1100px) {
+    margin-left: 0.5rem !important;
+  }
+
+  h6 {
+    @media (max-width: 1100px) {
+      font-size: 12px;
+      margin-left: 4px;
+    }
+  }
+}
+
+.dropdown-box .pincode-bar {
+  @media (max-width: 1100px) {
+    width: 149px;
+  }
+}
+
+.list-group::-webkit-scrollbar {
+  display: none;
+}
+
+.history-list {
+  li:hover {
+    background: #ebfef2;
+    cursor: pointer;
+  }
+
+  span {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+
+    color: #00683d;
+  }
+}
+
+.list-group .dataItem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.dataItem p {
+  margin-left: -13px;
+}
+
+.list-container {
+  margin-left: -10px;
+  width: 102.3%;
+
+  @media (max-width: 1300px) {
+    margin-left: -12px !important;
+  }
+
+  @media (min-width: 1300px) {
+    margin-left: -12px !important;
+  }
+
+  @media (min-width: 1440) {
+    margin-left: -13px !important;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-group {
+  height: 370px;
+  margin-top: 3px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  // width:"100%";
+  overflow-y: auto;
+}
+
+.list-group-item {
+  z-index: 1;
+}
+
+.list-group {
+
+  /* Using plain CSS */
+  @media (max-width: 1300px) {
+    width: 105.7% !important;
+  }
+
+  @media (min-width: 1300px) {
+    width: 103.6% !important;
+  }
+
+  @media (max-width: 1200px) {
+    width: 110.7% !important;
+  }
+}
+
+//search by query
+
+.query-search {
+  padding-bottom: 12px;
+
+  h6 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #313436;
+    margin: 0;
+    margin-top: 16px !important;
+    margin-bottom: 4px;
+  }
+
+  p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    opacity: 0.5;
+    margin: 0;
+  }
+}
+
+.verified-doc {
+  margin-top: 5px;
+
+  h5 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+    color: #1b875a;
+  }
+}
+
+.view-all {
+  text-align: center;
+  border: 1px solid #00683d;
+  padding: 16px;
+  margin: 16px;
+
+  button {
+    /* identical to box height, or 125% */
+    color: #00683d !important;
+  }
+}
+
+
+// cart css
+.main-card {
+  width: 678px;
+  height: 170px;
+
+}
+
+.cart-header {
+  margin-top: 30px;
+
+}
+
+.med_Card {
+  padding: 15px;
+}
+
+.item-cart {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+
+  color: #808080;
+
+}
+
+// .med_Card .med_image{
+// width: 101px;
+// height: 101px;
+// }
+.med_Card h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+}
+
+.med_Card p {
+  color: rgb(173, 173, 173);
+  font-size: 12px;
+}
+
+.med_Card h6 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.med_Card .price {
+  text-decoration: line-through;
+  color: rgb(187, 187, 187);
+  font-size: 13px;
+}
+
+.med_Card .priceOff {
+  color: red;
+}
+
+.med_Card .right_side {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+}
+
+.med_Card .Delete {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.med_Card .counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  width: fit-content;
+  margin: auto;
+}
+
+.med_Card .count {
+  padding: 4px 10px;
+}
+
+.med_Card .a_tag {
+  background: green;
+  color: white;
+  padding: 4px 10px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+
+
+/// cartslider
+
+.carouselCard {
+  padding: 0px;
+}
+
+.react-multi-carousel-item {
+  margin: 0 10px;
+}
+
+.carouselCard image {
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.carouselCard h4 {
+  color: #484848;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.carouselCard p {
+  color: rgb(173, 173, 173);
+  font-size: 14px;
+
+}
+
+.carouselCard h6 {
+  color: #484848;
+  font-weight: 600;
+
+}
+
+.carouselCard h6 .MainPrice {
+  color: rgb(173, 173, 173);
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.carouselCard h6 .OffPerc {
+  color: red;
+}
+
+.carouselCard button {
+  width: 100%;
+  background-color: #0c5c0c;
+  color: white;
+  border: 0;
+  padding: 7px 0;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+//////////////////////@at-root
+label {
+  display: block;
+  margin: 15px 5px 3px 0;
+  font-weight: bold;
+  }
+
+

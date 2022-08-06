@@ -1,0 +1,324 @@
+@import "styles/variables";
+@import "bootstrap/scss/bootstrap";
+@import "./header.scss";
+@import "./productListing.scss";
+@import "./thank_you.scss";
+@import "./payment.scss";
+
+
+//----------------------------------------------------------
+// Cosmo 5.1.3
+// Bootswatch
+
+// Variables
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" !default;
+
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+// Typography
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #fff;;
+}
+
+// Indicators
+.badge {
+  &.bg-light {
+    color: $dark;
+  }
+}
+
+// Progress bars
+.progress {
+  @include box-shadow(none);
+
+  .progress-bar {
+    font-size: 8px;
+    line-height: 8px;
+  }
+}
+
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  width: 5%;
+}
+
+//  Modal Header
+.modal-header {
+  border-bottom: none;
+  display: initial;
+  padding: 0;
+}
+
+
+// Close Modal  Button 
+.modal-header .btn-close {
+  padding: 0.5rem 0.5rem;
+  margin: -0.5rem -3.5rem -2rem auto;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.btn-close {
+  opacity: 1;
+}
+
+// Modal Footer
+.modal-footer, .modal-content {
+  border: none;
+}
+
+// Modal Size  
+.modal-dialog {
+  max-width: 828px;
+  height: 616px;
+}
+
+
+//Eorror border
+.error-border {
+  border: 1px solid #ba0000 !important;
+}
+
+//text message color
+.success-light-bg {
+  background-color: #ebfef2 !important;
+}
+
+//ERROR MESSAGE
+.error-message {
+  color: #ba0000 !important;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+// save Address Radio button
+input[type="radio"] {
+  accent-color: #00683d;
+}
+
+// scroll bar css
+.scrollBar {
+  height: 300px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  margin-right: 21px !important;
+}
+
+/* width */
+.scrollBar::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Handle */
+.scrollBar::-webkit-scrollbar-thumb {
+  background: #00683d;
+  border-radius: 10px;
+}
+
+/* Box shadow bg */
+.box-shadow-bg {
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+// dispaly flex start center
+.flex-center-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+// dispaly flex between center
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+//search bar
+.global-search-bar {
+  background-color: white;
+  display: flex;
+  flex: 1;
+  width: 100% !important;
+  height: 44px !important;
+  background: #ffffff;
+  border: 1px solid #c0c0c0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+
+    &::placeholder {
+      font-family: "Ubuntu";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      color: #c0c0c0;
+    }
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 2px;
+
+    img {
+      margin-top: 10px;
+      left: 2px;
+    }
+  }
+
+
+}
+
+.card {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05) !important;
+  border: none !important;
+}
+
+.table {
+  --bs-table-striped-bg: #EBFEF2
+}
+
+.table tr th {
+  border-right: 1px solid #C0C0C0;
+  border-bottom: none;
+}
+
+.table tr td {
+  border-bottom: none;
+}
+
+.table tbody {
+  border: 1px solid #C0C0C0 !important;
+}
+
+.swiper-button-prev {
+  color: black !important;
+}
+
+.swiper-button-next {
+  color: black !important;
+}
+
+
+.fs_20 {
+  font-size: 20px;
+}
+
+.fs_16 {
+  font-size: 16px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 15px !important;
+  }
+  
+.bgbeige {
+  background: #FFD29A;
+}
+.bgFFE9EB {
+  background: #FFE9EB;
+}
+.bg89642E {
+  background: #89642E !important;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px !important;
+}
+.BgB67271 {
+  background: #B67271 !important;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px !important;
+}
+.bg00683D {
+  background: #00683D !important;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px !important;
+}
+.light {
+  background: #ffffff;
+}
+.mt59 {
+  margin-top :59px; ;
+}
+.swiper-pagination {
+  margin-bottom: 20px !important;
+}
+// form elements styling
+.form-label {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #808080;
+}
+
+input:not([type=checkbox]):not([type=radio]), textarea, select {
+  border: 1px solid #C0C0C0;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+input:focus, textarea:focus, select:focus {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15) !important;
+  outline: 0 !important;
+}
+
+.btn-primary {
+  background: #00683D !important;
+  border: none !important;
+  padding: 14px 24px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.btn-outline-primary  {
+  border: 1px solid #00683D !important;
+  padding: 14px 24px;
+  background: #FFFFFF !important;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00683D !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+
+.btn {
+  border: none !important;
+  outline: none !important; 
+}

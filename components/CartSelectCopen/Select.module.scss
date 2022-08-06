@@ -1,0 +1,56 @@
+.select_copen {
+  border: 2px dashed #629cff !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  position: relative;
+}
+
+.select_copen::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: -20px;
+  top: 20px;
+  z-index: 1;
+  border-radius: 40px;
+  border-right: 2px dashed #629cff;
+  background-color: #fff;
+}
+
+.select_copen::after {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  right: -20px;
+  top: 20px;
+  z-index: 1;
+  border-radius: 40px;
+  border-left: 2px dashed #629cff;
+  background-color: #fff;
+}
+
+.offer_code {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #313436;
+  border: "1px solid dotted";
+}
+
+.code {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #808080;
+  padding-top: 4px !important ;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+//Dropdown box
+.dropdown_box {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #00683d;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999999;
+  padding: 0;
+  padding-left: 15px;
+}
+//Pincode bar
+.pincode_bar {
+  margin-top: 16px;
+  width: 323px;
+  height: 52px;
+  background: #ffffff;
+  border: 1px solid #808080;
+}
+//pincode left bar
+.left_bar {
+  width: 37px;
+  height: 52px;
+  margin-left: 16px;
+}
+//pincode right bar
+.right_bar {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border: none;
+  input {
+    width: 100%;
+    flex: 1;
+    border: none !important;
+    outline: none !important;
+  }
+}
+//pincode right bar error
+.right_bar_error {
+  h5 {
+    margin-top: 3px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #ba0000;
+    cursor: pointer;
+  }
+}
+//location picker
+.location_picker {
+  margin-top: 16px;
+  align-items: center;
+  display: -webkit-inline-box;
+  h6 {
+    margin-left: 9px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ba0000;
+  }
+}
+//sign in button
+.signin_btn {
+  padding-bottom: 16px;
+  button {
+    width: 96%;
+    height: 52px;
+    background: #00683d;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+//loggedIn Box
+.loggedin_Box {
+  margin-top: 10px;
+  h4 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #808080;
+  }
+}
+//not found
+.not_found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h3 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.15px;
+    color: #313436;
+  }
+
+  button {
+    background: #00683d;
+    width: 323px !important;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 12px;
+    height: 34px;
+    border: none;
+    outline: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}

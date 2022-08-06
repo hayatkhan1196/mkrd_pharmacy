@@ -1,0 +1,56 @@
+// cart css
+.main_card {
+  width: auto;
+}
+
+.med_h5 {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+}
+.med_p {
+  color: rgb(173, 173, 173);
+  font-size: 12px;
+}
+.med_h6 {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.price {
+  text-decoration: line-through;
+  color: rgb(187, 187, 187);
+  font-size: 13px;
+}
+.priceOff {
+  color: red;
+}
+.right_side {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+}
+.Delete {
+  cursor: pointer;
+  margin-left: 20px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  width: fit-content;
+  margin: auto;
+}
+.count {
+  padding: 4px 10px;
+}
+.a_tag {
+  background: green;
+  color: white;
+  padding: 4px 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
